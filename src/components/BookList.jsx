@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Book from './book'
+import Book from './Book'
 
 function BookList({ books, setBooks }) {
     const [favoriteList, setFavoriteList] = useState([])
